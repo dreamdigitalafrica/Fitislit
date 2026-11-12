@@ -31,7 +31,8 @@ body{color:#5b605d}
 .fit-photo.nutrition{object-position:20% center}
 .post_item_portfolio .fit-photo{width:100%;aspect-ratio:1;object-fit:cover}
 .post_item_related .fit-photo{width:100%;aspect-ratio:1;object-fit:cover}
-.slider1_slide1,.slider1_slide2{background-image:url('../images/fitislit/strength.png');background-position:85% center}
+.slider1_slide1{background-image:url('../images/fitislit/hero-sheba.png')!important;background-position:center center}
+.slider1_slide2{background-image:url('../images/fitislit/strength.png');background-position:85% center}
 .slider1_slide3{background-image:url('../images/fitislit/nutrition.png');background-position:18% center}
 .slider1_slide4{background-image:url('../images/fitislit/coaching.png');background-position:80% center}
 .advert_section{background-image:linear-gradient(90deg,rgba(0,0,0,.5),rgba(0,0,0,.1)),url('../images/fitislit/strength.png')!important}
