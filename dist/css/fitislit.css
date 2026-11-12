@@ -1,0 +1,86 @@
+/* Brand layer: the supplied TennisClub grids, section order and slider geometry remain. */
+:root{--fit-lime:#c6ff00;--fit-black:#111313;--fit-ink:#232725}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+body{color:#5b605d}
+.fit-logo{display:inline-block;position:relative;width:240px;height:92px;overflow:hidden;vertical-align:middle;background:#111}
+.fit-logo img{position:absolute!important;width:280px!important;max-width:none!important;height:auto!important;left:-20px;top:-51px;margin:0!important}
+.top_panel_middle,.header_mobile{background:#111313!important}
+.top_panel_middle .logo{margin-top:20px!important;margin-bottom:20px!important}
+.menu_main_nav>li>a{color:#fff!important}
+.menu_main_nav>li>a:hover,.menu_main_nav>li.current-menu-item>a{color:var(--fit-lime)!important}
+.top_panel_top{background:#232725!important;color:#ddd!important}
+.top_panel_top a{color:#fff!important}
+.top_panel_top_contact_area,.top_panel_top_open_hours{font-size:12px}
+.top_panel_top_user_area #menu_user{display:flex;gap:25px}
+.fit-nav-cta{background:var(--fit-lime);color:#111!important;padding:12px 16px;display:inline-block;font-weight:600;font-size:12px}
+.sc_button,.rev-btn{background:var(--fit-lime)!important;color:#111!important;border-color:var(--fit-lime)!important}
+.sc_button:hover,.rev-btn:hover{background:#a6d600!important;color:#111!important}
+.accent1,.sc_matches_next .sc_match_date .month{color:#93ba00!important}
+.add_color_2_bg,.theme_background_1,.scheme_original .sc_matches_current,.theme_background_2{background-color:#1c211f!important}
+.general_info_section{background-image:url('../images/fitislit/coaching.png');background-position:70% center}
+.general_info_section .fit-logo{width:184px;height:74px}
+.general_info_section .fit-logo img{width:220px!important;left:-16px;top:-40px}
+.general_info_section .sc_column_item_inner{background:#191e1b!important}
+.sc_matches_next .sc_matches_descr,.sc_matches_current .sc_matches_descr{color:#d2d6d3}
+.sc_matches_next .sc_match{cursor:pointer}
+.sc_matches_next .sc_match:hover,.sc_matches_next .sc_match:focus{outline:2px solid var(--fit-lime);outline-offset:-2px}
+.sc_matches_next .sc_match .name{color:#fff}
+.sc_matches_current .match_score{color:var(--fit-lime)!important}
+.sc_matches_current .player_photo img{width:130px;height:130px;object-fit:cover}
+.fit-photo{object-fit:cover;object-position:80% center}
+.fit-photo.nutrition{object-position:20% center}
+.post_item_portfolio .fit-photo{width:100%;aspect-ratio:1;object-fit:cover}
+.post_item_related .fit-photo{width:100%;aspect-ratio:1;object-fit:cover}
+.slider1_slide1,.slider1_slide2{background-image:url('../images/fitislit/strength.png');background-position:85% center}
+.slider1_slide3{background-image:url('../images/fitislit/nutrition.png');background-position:18% center}
+.slider1_slide4{background-image:url('../images/fitislit/coaching.png');background-position:80% center}
+.advert_section{background-image:linear-gradient(90deg,rgba(0,0,0,.5),rgba(0,0,0,.1)),url('../images/fitislit/strength.png')!important}
+.testimonials_custom_block_3{background-image:linear-gradient(rgba(12,20,15,.85),rgba(12,20,15,.85)),url('../images/fitislit/coaching.png')!important}
+.testimonials_custom_block_3 *{color:#fff}
+.sc_testimonial_author_name{color:var(--fit-lime)!important}
+.contact_form_custom_1{background-image:linear-gradient(rgba(240,243,237,.92),rgba(240,243,237,.92)),url('../images/fitislit/nutrition.png')!important}
+.sc_team_item_avatar .fit-photo{width:100%;aspect-ratio:1;object-fit:cover}
+.sc_team_item_position{color:#698600!important}
+.sc_team_item_description{line-height:1.7}
+.woocommerce .products .product .fit-photo{width:100%;aspect-ratio:1;object-fit:cover}
+.fit-product-desc{display:block;color:#d6ddd7;font-size:13px;line-height:1.6;min-height:42px;font-weight:400}
+.fit-detail{display:inline-block;margin-top:15px;color:var(--fit-lime)!important;font-size:12px;font-weight:700}
+.fit-plan-label{font-size:24px;font-weight:600;color:#232725}
+.sc_price_block_title{background:#202721!important;color:#fff!important}
+.sc_price_block_description{min-height:125px;line-height:1.7!important}
+.sc_price_block_link a{font-size:12px}
+.fit-side{width:68px!important;padding:16px 0!important;background:var(--fit-lime)!important;text-align:center;left:0!important;top:42%!important;z-index:50}
+.fit-side a{color:#111!important;font-size:13px;font-weight:800;font-style:italic;line-height:1.1}
+.fit-form-note{font-size:12px;line-height:1.7;color:#586052;max-width:480px;margin:20px auto}
+#enquiry-status{color:#334500;font-weight:600}
+.fit-enquiry input,.fit-enquiry textarea{box-sizing:border-box;width:100%}
+.fit-enquiry textarea{min-height:130px}
+.fit-enquiry button{background:var(--fit-lime)!important;color:#111!important}
+footer .widget_socials p{color:#697168}
+.fit-draft-note{display:block;font-size:11px;line-height:1.7;color:#747c73;margin-top:8px}
+.fit-offer-summary{border-left:3px solid var(--fit-lime);padding:12px 18px;margin-bottom:20px;background:#fff;text-align:left}
+.fit-offer-summary:empty{display:none}
+.fit-offer-summary h3{font-size:22px;margin:0 0 8px}
+.fit-offer-summary p{margin:0;line-height:1.7}
+#programmes,.product,#approach,#guides,#about,#contact{scroll-margin-top:100px}
+@media(max-width:767px){.fit-logo{width:180px;height:65px}.fit-logo img{width:210px!important;left:-15px;top:-39px}.fit-side{display:none}.general_info_section{background-position:75% center}.club_coaches_subtitle{width:90%}.sc_price_block_description{min-height:0}.fit-plan-label{font-size:23px}.fit-nav-cta{font-size:11px}.sc_matches_current .player_photo img{width:95px;height:95px}.general_info_section h3{font-size:2.5em!important}}
+.fit-side{height:auto!important;min-height:0!important;bottom:auto!important;line-height:1.3!important}
+.sc_socials .fit-nav-cta{width:auto!important;height:auto!important;line-height:1.4!important;overflow:visible!important;white-space:nowrap}
+.top_panel_middle .sc_socials{width:auto!important;overflow:visible!important}
+.theme_background_1{background-color:#f5f7f2!important}
+.theme_background_1:has(.sc_matches){background-color:#1c211f!important}
+.fit-product-desc{color:#555f54!important}
+.fit-detail{color:#476000!important}
+.woocommerce .products .product h3{color:#20271f!important;font-weight:600}
+.sc_section:has(>.content_wrap>#programmes),.sc_section:has(.woocommerce){background-color:#20271f!important}
+/* Keep all programme card copy legible on the original light card faces. */
+#programmes .product{background:#fff!important}
+#programmes .product .post_content,#programmes .product h3,#programmes .product .fit-product-desc{color:#263027!important}
+#programmes .product .fit-detail{color:#456000!important}
+#programmes .product .post_featured{background:#fff}
+#programmes .product .post_featured img{display:block}
+#sc_matches_1_wrap .sc_matches_next{color:#fff}
+#sc_matches_1_wrap .sc_matches_next .sc_match_date .day{color:#fff}
+.sc_team_item_description{color:#515951!important}
+.sc_list_item .sc_list_item_title{color:#fff!important}
+@media(max-width:767px){html,body{max-width:100%;overflow-x:hidden}.slider_wrap,.rev_slider_wrapper{max-width:100vw;overflow:hidden}.fit-logo{width:180px;height:65px}.fit-logo img{width:210px!important;left:-15px;top:-39px}.top_panel_top_user_area{display:none!important}.sc_matches_current .sc_match{min-width:0}}

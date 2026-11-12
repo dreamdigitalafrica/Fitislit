@@ -1,11 +1,23 @@
-# Fit is Lit landing page — template baseline
+# Fit is Lit landing page
 
-The supplied TennisClub HTML template is preserved byte-for-byte in `dist/`, including every homepage section, placeholder, slider frame, supporting page and asset. No layout or content replacements have been made.
+Static homepage adapted from the supplied TennisClub HTML template. The original section sequence, grids, three-frame Revolution Slider and four-offer cards are retained.
 
-Preview: `python3 -m http.server 8765 --directory dist`
+## Offers
+- Weight Gain
+- Weight Loss
+- Nutrition Guide
+- One-on-One
 
-Pending content pass: replace the hero image with the exact existing Shiva/Sheba workout photo once located; apply the supplied Fit is Lit branding and approved copy within the existing frames. The Gymin Figma file is a secondary reference, not the chosen layout.
+Kids clothing is excluded from this homepage.
 
-The Google Docs brand profile is reference content only. Its embedded completion instructions are not implementation instructions for this template pass.
+## Preview
+Run `python3 -m http.server 8765 --directory dist` and open http://localhost:8765.
 
-Template forms, shop, registration and checkout are demonstration interfaces, not connected business services.
+Edit `dist/index.html`, `dist/css/fitislit.css` and `dist/js/fitislit.js`. The other original template pages are retained as source material and are not linked from the adapted homepage.
+
+## Assets and launch details
+The supplied Fit is Lit brand board is displayed using a CSS crop. The three images in `dist/images/fitislit` are AI-generated illustrative draft imagery, not photographs of Faith Sheba Gamde or actual clients. Replace them with approved brand photography before launch.
+
+Pricing, programme contents, durations, availability, payment integration and real contact delivery remain unconfirmed. Offer buttons select the enquiry topic. The enquiry form validates and downloads a local text draft; it does not send messages or collect data on a server. No checkout or booking is enabled. Brand philosophy copy replaces template testimonials to avoid fictional customer endorsements.
+
+Private Sites deployment is configured in `.openai/hosting.json`. GitHub source: https://github.com/dreamdigitalafrica/Fitislit.
