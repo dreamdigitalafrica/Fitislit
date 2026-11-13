@@ -88,3 +88,25 @@ footer .widget_socials p{color:#697168}
 
 /* Stock food photography: dark copy remains readable on the light marble backdrop. */
 #slide-2-layer-2,#slide-2-layer-3,#slide-2-layer-4{color:#111313!important;text-shadow:0 1px 8px rgba(255,255,255,.8)}
+
+/* White brand theme with compact black-and-green logo. */
+body,.body_wrap,.page_wrap,.page_content_wrap{background:#fff!important;color:#354139}
+.top_panel_middle,.header_mobile,.top_panel_top{background:#fff!important;color:#27362c!important;border-bottom:1px solid #e7eee8}
+.top_panel_top a,.menu_main_nav>li>a,.header_mobile .menu_button,.header_mobile .menu_main_cart{color:#17231b!important}
+.menu_main_nav>li>a:hover,.menu_main_nav>li.current-menu-item>a{color:#527d00!important}
+.fit-logo,.general_info_section .fit-logo{width:156px;height:64px;background:#fff}
+.fit-logo img,.general_info_section .fit-logo img{width:182px!important;left:-13px!important;top:-33px!important;filter:invert(1) hue-rotate(180deg)}
+.top_panel_middle .logo{margin-top:12px!important;margin-bottom:12px!important}
+.theme_background_1,.theme_background_1:has(.sc_matches),.theme_background_2,.add_color_2_bg,.add_color_3_bg,.sc_section:has(>.content_wrap>#programmes),.sc_section:has(.woocommerce){background-color:#fff!important}
+.general_info_section .sc_column_item_inner,.scheme_original .sc_matches_current,.sc_matches_current,.sc_matches_next{background:#f4f8f0!important;color:#27362c!important}
+.general_info_section .color_white,.sc_matches .sc_matches_title,.sc_matches .sc_matches_descr,.sc_matches .name,.sc_matches .player_name a,.sc_matches .player_country,.sc_matches .match_date,.sc_matches .match_category a,.sc_matches .sc_match_date .day,#sc_matches_1 .sc_matches_next,#sc_matches_1 .sc_match_date .day{color:#27362c!important}
+.sc_matches .match_score,.sc_matches .sc_match_date .month{color:#527d00!important}
+.sc_matches .sc_match{border-color:#dce7d6!important}
+.add_color_3_bg .color_white,.add_color_3_bg .add_color_4{color:#17231b!important}
+.sc_price_block_title{background:#eef5e6!important;color:#17231b!important}
+.testimonials_custom_block_3{background:#f4f8f0!important}
+.testimonials_custom_block_3 *{color:#27362c!important}
+.testimonials_custom_block_3 .sc_testimonial_author_name{color:#527d00!important}
+.footer_wrap,.copyright_wrap{background:#f7faf4!important;color:#354139!important}
+.fit-programme-art,.woocommerce .products .product .fit-programme-art,.post_item_portfolio .fit-programme-art,.post_item_related .fit-programme-art{object-fit:contain!important;object-position:center!important;background:#eef2ee;width:100%;aspect-ratio:1}
+@media(max-width:767px){.fit-logo,.general_info_section .fit-logo{width:130px;height:52px}.fit-logo img,.general_info_section .fit-logo img{width:152px!important;left:-11px!important;top:-28px!important}}
