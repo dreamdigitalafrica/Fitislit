@@ -31,7 +31,7 @@ body{color:#5b605d}
 .fit-photo.nutrition{object-position:center center}
 .post_item_portfolio .fit-photo{width:100%;aspect-ratio:1;object-fit:cover}
 .post_item_related .fit-photo{width:100%;aspect-ratio:1;object-fit:cover}
-.slider1_slide1{background-image:url('../images/fitislit/hero-sheba-approved.jpg')!important;background-position:center center}
+.slider1_slide1{background-image:url('../images/fitislit/hero-sheba.png')!important;background-position:center center}
 .slider1_slide2{background-image:url('../images/fitislit/strength.png');background-position:85% center}
 .slider1_slide3{background-image:url('../images/fitislit/nutrition-stock.jpg');background-position:18% center}
 .slider1_slide4{background-image:url('../images/fitislit/coaching.png');background-position:80% center}
@@ -169,3 +169,11 @@ html[data-theme="dark"] .fit-logo{background:#111!important}html[data-theme="dar
 .advert_section .color_white{color:#fff!important}
 .fit-inner .fit-shop{padding:35px 24px 45px}
 @media(max-width:767px){.fit-logo,.general_info_section .fit-logo{width:108px!important;height:42px!important}.fit-logo img,.general_info_section .fit-logo img{width:126px!important;left:-9px!important;top:-23px!important}.fit-inner .fit-shop{padding:25px 12px}}
+
+/* Full-color transparent logo, shared by all template pages. */
+.fit-logo,.general_info_section .fit-logo,html[data-theme="dark"] .fit-logo{width:128px!important;height:52px!important;overflow:visible!important;background:transparent!important}
+.fit-logo img,.general_info_section .fit-logo img,html[data-theme="dark"] .fit-logo img{position:static!important;width:100%!important;max-width:100%!important;height:100%!important;object-fit:contain!important;left:auto!important;top:auto!important;filter:none!important}
+.footer_wrap .fit-logo img,.general_info_section .fit-logo img,html[data-theme="dark"] .fit-logo img{filter:brightness(0) invert(1)!important}
+@media(max-width:767px){.fit-logo,.general_info_section .fit-logo{width:108px!important;height:44px!important}}
+
+.footer_wrap,.copyright_wrap,html[data-theme="dark"] .footer_wrap,html[data-theme="dark"] .copyright_wrap{background:#121212!important;color:#ddd!important}.footer_wrap a,.footer_wrap p,.footer_wrap h5,.copyright_wrap a,.copyright_wrap p{color:#eee!important}
