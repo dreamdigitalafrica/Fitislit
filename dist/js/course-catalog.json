@@ -5,7 +5,9 @@
     "type": "Prerecorded classes",
     "image": "weight-gain-square.jpg",
     "line": "Build strength. Find your rhythm.",
-    "desc": "A goal-focused starting point for building a consistent strength-training routine."
+    "desc": "A goal-focused starting point for building a consistent strength-training routine.",
+    "price": 135200,
+    "currency": "NGN"
   },
   {
     "id": "weight-loss",
@@ -13,7 +15,9 @@
     "type": "Prerecorded classes",
     "image": "weight-loss-square.jpg",
     "line": "Move more. Build consistency.",
-    "desc": "Make room for movement with a programme focused on your weight-loss goals."
+    "desc": "Make room for movement with a programme focused on your weight-loss goals.",
+    "price": 135200,
+    "currency": "NGN"
   },
   {
     "id": "nutrition-guide",
@@ -21,6 +25,8 @@
     "type": "Digital guide",
     "image": "nutrition-chef.jpg",
     "line": "Make everyday food choices simpler.",
-    "desc": "Explore everyday nutrition and bring more intention to your meals."
+    "desc": "Explore everyday nutrition and bring more intention to your meals.",
+    "price": 135200,
+    "currency": "NGN"
   }
 ]
