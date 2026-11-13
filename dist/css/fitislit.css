@@ -160,3 +160,12 @@ html[data-theme="dark"] .sc_matches .sc_matches_title,html[data-theme="dark"] .a
 .fit-shop-banner-copy{min-height:280px}
 @media(max-width:900px){.fit-shop .fit-shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:479px){.fit-shop .fit-shop-card{padding:18px 12px}.fit-shop .fit-shop-image{width:112px!important;height:150px!important}.fit-shop .fit-shop-card h3{font-size:14px;min-height:85px}}
+
+/* Restore original compact brand artwork and template promotional frame. */
+.fit-logo,.general_info_section .fit-logo{display:inline-block!important;position:relative!important;width:128px!important;height:49px!important;overflow:hidden!important;line-height:1;background:#fff!important}
+.fit-logo img,.general_info_section .fit-logo img{position:absolute!important;width:149px!important;max-width:none!important;height:auto!important;left:-10.5px!important;top:-27px!important;margin:0!important;filter:invert(1) hue-rotate(180deg)}
+html[data-theme="dark"] .fit-logo{background:#111!important}html[data-theme="dark"] .fit-logo img{filter:none}
+.advert_section{background:#1e314e url('../images/fitislit/shop-shoes-banner.jpg') center/cover no-repeat!important}
+.advert_section .color_white{color:#fff!important}
+.fit-inner .fit-shop{padding:35px 24px 45px}
+@media(max-width:767px){.fit-logo,.general_info_section .fit-logo{width:108px!important;height:42px!important}.fit-logo img,.general_info_section .fit-logo img{width:126px!important;left:-9px!important;top:-23px!important}.fit-inner .fit-shop{padding:25px 12px}}
