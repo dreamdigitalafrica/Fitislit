@@ -18,6 +18,7 @@
  'Nutrition Guide':'Explore general nutrition education for everyday food choices. Guide contents, access and pricing will be confirmed before purchase.',
  'One-on-One':'Ask about personal fitness support. Session format, availability, scope and pricing will be confirmed before booking.'
  };
+ ['Sports Water Bottle','Men’s Climacool Leap Running Tennis Shoe','Gym Tights','Gym Workout Top'].forEach(function(name){offers[name]='Ask about '+name+'. Confirm size, colour, stock and delivery before ordering.'});
  var form=document.getElementById('fit-enquiry');
  var summary=document.createElement('div');summary.className='fit-offer-summary';summary.setAttribute('role','status');form.before(summary);
  function choose(name){
