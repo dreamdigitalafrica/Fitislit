@@ -150,3 +150,13 @@ html[data-theme="dark"] .sc_matches .sc_matches_title,html[data-theme="dark"] .a
 .fit-shop-price del{color:#aab1b8;font-size:18px}.fit-shop-enquire{font-size:12px;color:#24364e!important}
 @media(max-width:900px){.fit-shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.fit-shop-card{border-bottom:1px solid #e5e5e5}.fit-shop-banner{padding:50px 0}.fit-shop-banner-copy{min-height:250px}.fit-shop-banner p{font-size:14px}}
 @media(max-width:479px){.fit-shop-card{padding:14px 12px 22px}.fit-shop .fit-shop-card h3{font-size:15px;min-height:90px}.fit-shop-sale{top:18px;left:12px;padding:6px 8px;font-size:10px}.fit-shop-price{font-size:18px;flex-wrap:wrap}.fit-shop-price del{font-size:15px}.fit-shop-banner{background-position:60% center}.fit-shop-banner-copy{max-width:60%}.fit-shop-cta{padding:14px 20px}.fit-shop-banner p{background:#1e314ebd;padding:8px}.fit-shop{padding-bottom:45px}}
+
+/* Compact merchandise thumbnails, isolated from programme artwork. */
+.fit-shop .fit-shop-grid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.fit-shop .fit-shop-card{min-width:0;width:auto!important;overflow:hidden;padding:24px 22px 28px}
+.fit-shop .fit-shop-image{width:150px!important;max-width:100%;height:200px!important;aspect-ratio:3/4;margin:0 auto;background-size:400% 100%!important}
+.fit-shop .fit-shop-card h3{font-size:17px;min-height:77px}
+.fit-shop-banner{padding:45px 0;background-size:cover}
+.fit-shop-banner-copy{min-height:280px}
+@media(max-width:900px){.fit-shop .fit-shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:479px){.fit-shop .fit-shop-card{padding:18px 12px}.fit-shop .fit-shop-image{width:112px!important;height:150px!important}.fit-shop .fit-shop-card h3{font-size:14px;min-height:85px}}
