@@ -1,1 +1,144 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script>try{document.documentElement.dataset.theme=localStorage.getItem("fit-theme")==="dark"?"dark":"light"}catch(e){}</script><title>Demo Checkout | Fit is Lit</title><meta name="description" content="Try the Fit is Lit demo checkout. No real payment is processed."><link rel="stylesheet" href="css/pages.css"></head><body><header class="site-header"><a class="wordmark" href="index.html">Fit is Lit</a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html" aria-current="page">Products</a><a href="index.html#contact">Contact</a></nav></header><main><section class="section checkout"><a class="back" href="products.html">← All products</a><p class="eyebrow">DEMO CHECKOUT</p><h1>One step closer.</h1><p class="demo-notice">This is a preview checkout. No payment is taken, no order is placed, and no course or guide access is issued.</p><div class="checkout-grid" id="checkout-content"><section class="checkout-panel"><h2>Your selection</h2><div class="checkout-item"><img id="checkout-image" alt="" width="120" height="120"><div><p class="eyebrow" id="checkout-kind"></p><h3 id="checkout-name"></h3><p>Quantity: 1</p></div></div><hr><div class="checkout-total"><span>Total (USD)</span><strong>US$100.00</strong></div></section><section class="checkout-panel"><h2>Demo payment</h2><p>Try the purchase flow with the sample payment below.</p><div class="demo-payment"><span>Sample card</span><strong>•••• •••• •••• 4242</strong><small>Demo customer · No real card required</small></div><button class="button" id="demo-purchase" type="button">Complete demo purchase — US$100</button><p class="checkout-note">Nothing will be charged or submitted.</p></section></div><section class="checkout-panel" id="demo-success" hidden tabindex="-1" aria-labelledby="demo-success-title"><p class="eyebrow">DEMO COMPLETE</p><h2 id="demo-success-title">You’ve tried the checkout.</h2><p id="demo-result"></p><p>No payment was processed and no access has been issued. Real checkout will be available when payments are connected.</p><a href="products.html" class="button">Explore more products</a></section><section class="checkout-panel" id="checkout-error" hidden><h2>Choose a product first</h2><p>Select a Weight Gain class, Weight Loss class or Nutrition Guide to try checkout.</p><a href="products.html" class="button">View products</a></section><noscript><p>Please enable JavaScript to try the demo checkout. No payments are processed.</p></noscript></section></main><footer><a class="wordmark" href="index.html">Fit is Lit</a><p>Move Strong. Live Bright.</p><nav aria-label="Footer"><a href="about.html">About</a><a href="products.html">Products</a><a href="index.html#contact">Contact</a></nav></footer><button id="fit-theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false"><span class="fit-theme-icon" aria-hidden="true">☾</span> <span class="fit-theme-label">Dark</span></button><script src="js/fitislit.js"></script><script src="js/checkout.js"></script></body></html>
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("fit-theme")==="dark"?"dark":"light"}catch(e){document.documentElement.dataset.theme="light"}</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+<meta content="telephone=no" name="format-detection"/>
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<title>Checkout | Fit is Lit</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+<link href="css/fontello/css/fontello.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="js/vendor/revslider/css/settings.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/woocommerce/woocommerce-layout.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/woocommerce/woocommerce-smallscreen.css" media="only screen and (max-width: 768px)" rel="stylesheet" type="text/css"/>
+<link href="css/woocommerce/woocommerce.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/wp-cloudy/wpcloudy.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/wp-cloudy/wpcloudy-anim.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/style.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/core.animation.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/shortcodes.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/plugin.woocommerce.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/skin.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="js/core.messages/core.messages.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="js/magnific/magnific-popup.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="css/core.portfolio.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="js/swiper/swiper.min.css" media="all" rel="stylesheet" type="text/css"/>
+<meta content="Explore Fit is Lit Weight Gain, Weight Loss, Nutrition Guide and One-on-One fitness support." name="description"/><link href="css/fitislit.css" rel="stylesheet"/><link rel="stylesheet" href="css/template-pages.css"></head>
+<body class="tennisclub_body body_style_wide body_filled article_style_stretch top_panel_show top_panel_above sidebar_hide fit-inner woocommerce-page"><div class="body_wrap"><div class="page_wrap"><!-- Header -->
+<header class="top_panel_wrap top_panel_style_3 scheme_original">
+<div class="top_panel_wrap_inner top_panel_inner_style_3 top_panel_position_above">
+<!-- User panel -->
+<div class="top_panel_top">
+<div class="content_wrap clearfix">
+<div class="top_panel_top_contact_area icon-smartphone">Move Strong. Live Bright.</div>
+<div class="top_panel_top_open_hours icon-mail-2">Fitness with Fit is Lit</div>
+<div class="top_panel_top_user_area">
+<ul class="menu_user_nav" id="menu_user"><li><a href="index.html#programmes">Explore programmes</a></li><li><a href="index.html#contact">Make an enquiry</a></li></ul>
+</div>
+</div>
+</div>
+<!-- /User panel -->
+<!-- Top Menu -->
+<div class="top_panel_middle">
+<div class="content_wrap">
+<div class="contact_logo">
+<div class="logo">
+<a aria-label="Fit is Lit home" href="index.html"><span class="fit-logo"><span class="fit-wordmark">Fit is Lit</span></span></a>
+</div>
+</div>
+<div class="menu_main_social_wrap">
+<div class="top_panel_top_socials">
+<div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small"><a class="fit-nav-cta" href="cart.html">Cart <span data-cart-count>0</span></a></div>
+</div>
+<div class="menu_main_wrap">
+<a class="menu_main_responsive_button icon-menu" href="index.html#programmes"></a>
+<nav class="menu_main_nav_area">
+<ul class="menu_main_nav" id="menu_main"><li class="menu-item"><a href="index.html">Home</a></li><li class="menu-item"><a href="about.html">About</a></li><li class="menu-item"><a href="products.html">Products</a></li><li class="menu-item"><a href="index.html#approach">Our Approach</a></li><li class="menu-item"><a href="index.html#guides">Guides</a></li><li class="menu-item"><a href="index.html#contact">Contact</a></li></ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<!-- /Top Menu -->
+</div>
+</header>
+<!-- /Header -->
+<!-- Header Mobile -->
+<div class="header_mobile">
+<div class="content_wrap">
+<div class="menu_button icon-menu"></div>
+<div class="logo">
+<a aria-label="Fit is Lit home" href="index.html"><span class="fit-logo"><span class="fit-wordmark">Fit is Lit</span></span></a>
+</div>
+</div>
+<div class="side_wrap">
+<div class="close">Close</div>
+<div class="panel_top">
+<nav class="menu_main_nav_area">
+<ul class="menu_main_nav" id="menu_main_mobile"><li class="menu-item"><a href="index.html">Home</a></li><li class="menu-item"><a href="about.html">About</a></li><li class="menu-item"><a href="products.html">Products</a></li><li class="menu-item"><a href="index.html#approach">Our Approach</a></li><li class="menu-item"><a href="index.html#guides">Guides</a></li><li class="menu-item"><a href="index.html#contact">Contact</a></li></ul>
+</nav>
+<div class="login">
+<a class="popup_link popup_login_link" href="index.html#programmes">Explore programmes</a>
+</div>
+</div>
+<div class="panel_bottom">
+<div class="contact_socials">
+<div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small"><a class="fit-nav-cta" href="cart.html">Cart <span data-cart-count>0</span></a></div>
+</div>
+</div>
+<div class="top_panel_link">
+<a href="index.html#programmes">Explore programmes</a>
+</div>
+</div>
+<div class="mask"></div>
+</div>
+<!-- /Header Mobile -->
+<div class="top_panel_title top_panel_style_3 breadcrumbs_present scheme_original"><div class="top_panel_title_inner"><div class="content_wrap"><div class="breadcrumbs"><a href="index.html">Home</a> / <span>Checkout</span></div><h1 class="page_title">Checkout</h1></div></div></div><main class="page_content_wrap page_paddings_yes"><div class="content_wrap"><div class="content"><article class="post_item post_item_single"><div class="woocommerce"><p class="fit-demo-note">Demo checkout. No payment will be taken, no real order placed, and no course access issued.</p><div id="fit-checkout-empty" hidden><h2>Your cart is empty</h2><a class="sc_button" href="products.html">View products</a></div><form id="fit-order-form" class="checkout woocommerce-checkout"><div class="col2-set"><div class="col-1"><h3>Billing Details</h3><p>Sample customer details for this preview.</p><p class="form-row"><label>Name<input value="Demo Customer" readonly></label></p><p class="form-row"><label>Email<input value="demo@example.com" readonly></label></p><p>Digital products — no shipping address needed.</p></div><div class="col-2"><h3>Your order</h3><div id="fit-order-table"></div><div id="payment"><h4>Demo payment</h4><p>Sample card •••• 4242</p><button type="submit" class="sc_button">Place demo order</button></div></div></div></form><section id="fit-order-success" hidden tabindex="-1"><h2>Demo order complete</h2><p>You have tried the checkout. No payment was processed and no product access has been issued.</p><a href="products.html" class="sc_button">Continue shopping</a></section></div></article></div></div></main><footer class="footer_wrap widget_area scheme_original">
+<div class="footer_wrap_inner widget_area_inner">
+<div class="content_wrap">
+<div class="columns_wrap">
+<!-- Widget: Socials -->
+<aside class="column-1_4 widget widget_socials"><div class="fit-logo"><span class="fit-wordmark">Fit is Lit</span></div><p>Move Strong. Live Bright.</p><p>Fitness support for your everyday life.</p></aside><!-- /Widget: Socials --><!-- Widget: Recent Entries --><aside class="column-1_4 widget widget_recent_entries"><h5>Our Programmes</h5><p><a href="index.html#offer-0">Weight Gain</a></p><p><a href="index.html#offer-1">Weight Loss</a></p><p><a href="index.html#offer-2">Nutrition Guide</a></p><p><a href="index.html#offer-3">One-on-One</a></p></aside><!-- /Widget: Recent Entries --><!-- Widget: Text --><aside class="column-1_4 widget widget_text"><h5>Get in Touch</h5><p>Have a goal in mind?</p><p><a href="index.html#contact">Prepare an enquiry</a></p><p>Nigeria</p></aside><!-- /Widget: Text --><!-- Widget: RecentPosts --><aside class="column-1_4 widget widget_recent_posts"><h5>About Fit is Lit</h5><p>Founded by Faith Sheba Gamde.</p><p>Movement. Confidence. Consistency.</p><p><a href="about.html">Meet the brand</a></p></aside>
+<!-- /Widget: RecentPosts -->
+</div>
+</div>
+</div>
+</footer>
+<!-- /Footer -->
+<!-- Copyright -->
+<div class="copyright_wrap copyright_style_menu">
+<div class="copyright_wrap_inner">
+<div class="content_wrap">
+<div class="copyright_text">Fit is Lit © 2026. All rights reserved. <span class="fit-draft-note">Preview · Programme details and pricing to be confirmed. Illustrative imagery.</span></div>
+</div>
+</div>
+</div>
+<!-- /Copyright -->
+</div>
+</div>
+<!-- Side block with weather plugin -->
+<div class="custom_side_block fit-side" id="custom_side_block"><button type="button" id="fit-theme-toggle" aria-label="Switch to dark theme" aria-pressed="false"><span aria-hidden="true" class="fit-theme-icon">☾</span><span class="fit-theme-label">Dark</span></button></div>
+<!-- Side block with weather plugin -->
+<a class="scroll_to_top icon-up" href="#"></a>
+<script src="js/jquery/jquery.js" type="text/javascript"></script>
+<script src="js/_packed.js" type="text/javascript"></script>
+<script src="js/global.min.js" type="text/javascript"></script>
+<script src="js/vendor/revslider/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="js/vendor/revslider/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<script src="js/vendor/revslider/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+<script src="js/vendor/revslider/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+<script src="js/vendor/revslider/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+<script src="js/vendor/woocommerce/woocommerce.min.js" type="text/javascript"></script>
+<script src="js/vendor/woocommerce/cart-fragments.min.js" type="text/javascript"></script>
+<script src="js/core.utils.min.js" type="text/javascript"></script>
+<script src="js/core.init.min.js" type="text/javascript"></script>
+<script src="js/theme.init.min.js" type="text/javascript"></script>
+<script src="js/shortcodes.min.js" type="text/javascript"></script>
+<script src="js/core.messages/core.messages.min.js" type="text/javascript"></script>
+<script src="js/swiper/swiper.min.js" type="text/javascript"></script>
+<script src="js/fitislit.js"></script><script src="js/store.js"></script></body>
+</html>
