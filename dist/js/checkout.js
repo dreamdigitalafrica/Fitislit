@@ -3,7 +3,7 @@
  var products={
   'weight-gain':{name:'Weight Gain',kind:'Prerecorded classes',image:'weight-gain-square.jpg'},
   'weight-loss':{name:'Weight Loss',kind:'Prerecorded classes',image:'weight-loss-square.jpg'},
-  'nutrition-guide':{name:'Nutrition Guide',kind:'Digital guide',image:'nutrition-stock.jpg'}
+  'nutrition-guide':{name:'Nutrition Guide',kind:'Digital guide',image:'nutrition-chef.jpg'}
  };
  var slug=new URLSearchParams(window.location.search).get('product');
  var product=Object.prototype.hasOwnProperty.call(products,slug)?products[slug]:null;

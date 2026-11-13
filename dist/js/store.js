@@ -1,5 +1,5 @@
 (function(){'use strict';
-var catalog={'weight-gain':{name:'Weight Gain',image:'weight-gain-square.jpg'},'weight-loss':{name:'Weight Loss',image:'weight-loss-square.jpg'},'nutrition-guide':{name:'Nutrition Guide',image:'nutrition-stock.jpg'}};
+var catalog={'weight-gain':{name:'Weight Gain',image:'weight-gain-square.jpg'},'weight-loss':{name:'Weight Loss',image:'weight-loss-square.jpg'},'nutrition-guide':{name:'Nutrition Guide',image:'nutrition-chef.jpg'}};
 var cart={};try{cart=JSON.parse(localStorage.getItem('fit-demo-cart')||'{}')}catch(e){}if(!cart||typeof cart!=='object'||Array.isArray(cart))cart={};
 Object.keys(cart).forEach(function(k){if(!Object.prototype.hasOwnProperty.call(catalog,k)||!Number.isInteger(cart[k])||cart[k]<1)delete cart[k];else cart[k]=Math.min(10,cart[k]);});
 function money(n){return 'US$'+n.toFixed(2)}
