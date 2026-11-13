@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/frame-font-0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/frame-font-1.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/frame-font-2.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/frame-font-3.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/frame-font-4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/frame-font-5.ttf) format('truetype');
+}
+/* Geometry and typography from the supplied 1920px Home frame. */
+@font-face{font-family:'Overused Grotesk';src:url('../fonts/OverusedGrotesk-VF.woff2') format('woff2');font-style:normal;font-weight:300 900;font-display:swap}
+.exact-home{--u:min(1px,.052083333vw);font-family:Poppins,Arial,sans-serif;font-size:18px;line-height:26px}
+.exact-home h1,.exact-home h2,.exact-home h3,.exact-home .facts strong,.exact-home .price{font-family:'Overused Grotesk',Arial,sans-serif;letter-spacing:0}
+.exact-home h2{font-size:54px;line-height:71px;font-weight:600}.exact-home h3{font-size:30px;line-height:39px;font-weight:500}
+.exact-home .wrap{width:calc(1420 * var(--u));max-width:1420px}.exact-home .wide{width:calc(1530 * var(--u));max-width:1530px;border-radius:20px}
+.exact-home .header{height:160px;padding:0}.exact-home nav,.exact-home .button{font-family:Inter,Arial,sans-serif;font-size:18px;font-weight:500}.exact-home .header nav{gap:34px}
+.exact-home .button{border-radius:50px;padding:12px 30px;min-height:50px;line-height:26px;white-space:normal;text-align:center}.exact-home .button.black{background:#121212}
+.exact-home .hero{height:calc(798 * var(--u));min-height:0;max-height:798px;padding:0;justify-content:center;text-align:center;background-position:center}
+.exact-home .hero:before{content:'';position:absolute;inset:0;background:#12121233}
+.exact-home .hero-copy{width:calc(1016 * var(--u));max-width:1016px;display:flex;flex-direction:column;align-items:center;gap:35px}
+.exact-home .hero h1{font-size:calc(90 * var(--u));line-height:1.158;font-weight:600;letter-spacing:0;margin:0}
+.exact-home .hero p{font-size:18px;line-height:26px;max-width:748px;margin:0;color:white}.exact-home .hero h1 em{color:inherit}
+.exact-home .section{padding:0;margin-top:160px;margin-bottom:160px}.exact-home .section-head{margin-bottom:60px}.exact-home .section-head h2{font-size:54px}
+.exact-home .classes{gap:calc(50.7 * var(--u));grid-template-columns:repeat(3,1fr)}.exact-home .class-card{height:calc(476.62 * var(--u));aspect-ratio:auto;border-radius:20px}.exact-home .class-card>div{left:calc(50 * var(--u));bottom:calc(50 * var(--u))}.exact-home .class-card h3{font-size:24px;line-height:31px}
+.exact-home .about{padding:60px;min-height:805px}.exact-home .about-grid{grid-template-columns:1.03fr 1fr;gap:79px;min-height:467px}.exact-home .about-grid>img{height:467px;aspect-ratio:auto;border-radius:20px}.exact-home .about h2{font-size:50px;line-height:65px;margin:0 0 15px}.exact-home .about .eyebrow{display:none}.exact-home .about p{max-width:663px}.exact-home .checks{margin:35px 0}.exact-home .facts{margin-top:60px;padding-top:40px}.exact-home .facts strong{font-size:60px;line-height:1.2}.exact-home .facts span{font-size:18px}
+.exact-home .gallery{display:flex;flex-direction:column;gap:50px;margin-top:60px}.exact-home .gallery-row{display:grid;gap:40px;height:calc(384 * var(--u))}.exact-home .gallery-row-top{grid-template-columns:576fr 804fr}.exact-home .gallery-row-bottom{grid-template-columns:659fr 340.5fr 340.5fr}.exact-home .gallery img{height:100%;min-height:0;min-width:0;border-radius:20px}.exact-home .gallery .gallery-quote{grid-column:auto;grid-row:auto;text-align:center;align-items:center;justify-content:space-between;padding:45px 20px;background:var(--lime);border-radius:20px;gap:20px}.exact-home .gallery .gallery-quote h3{font-size:34px;line-height:45px;margin:0;font-weight:600}.exact-home .gallery .gallery-quote .button{font-size:18px;padding:12px 25px}
+.exact-home .media-steps{width:calc(1520 * var(--u));overflow:visible;margin-top:0;margin-bottom:160px}.exact-home .shop-promotion{margin:0;display:block;height:calc(600 * var(--u));border-radius:20px;overflow:hidden;background:#1e304f}.exact-home .shop-promotion img{width:100%;height:100%;object-fit:contain}.exact-home .steps-section{padding:0;margin-top:60px}.exact-home .steps{gap:60px}.exact-home .step-icon{background:none;color:#121212;padding:0;font-size:30px;margin:0 0 20px}.exact-home .steps h3{font-size:30px;line-height:39px;margin:0 0 15px}.exact-home .steps p{margin:0}
+.exact-home .cta{padding:0;margin:0 auto 160px;width:634px;max-width:88%;min-height:425px}.exact-home .cta-mark{font-size:60px;display:block;line-height:60px;margin-bottom:30px}.exact-home .cta h2{font-size:44px;line-height:55px;margin:0 0 30px}.exact-home .cta p{margin-bottom:35px}
+.exact-home .philosophy{height:507px}.exact-home .philosophy>div{padding:60px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.exact-home .philosophy h3{font-size:30px;line-height:39px}.exact-home .philosophy .quote-mark{font-size:90px;margin:0}.exact-home .philosophy img{height:507px;min-height:0}.exact-home #pricing{margin-top:114px}.exact-home .pricing{margin-top:60px;gap:30px}.exact-home .price-card{padding:40px;border-radius:20px;min-height:580px}.exact-home .price-card h3{font-size:34px}.exact-home .price{font-size:64px;line-height:1.2}.exact-home .mentorship{margin-top:30px}.exact-home footer.wide{width:calc(1520 * var(--u));padding:100px 100px 50px;margin-bottom:0;min-height:717px}.exact-home .footer-top{padding-bottom:50px}.exact-home .footer-grid{padding:50px 0;gap:50px}.exact-home .footer-grid h3{font-size:30px}.exact-home .footer-grid a,.exact-home .footer-grid p{font-size:16px}
+@media(max-width:1500px) and (min-width:1101px){.exact-home{font-size:16px}.exact-home .section{margin-top:120px;margin-bottom:120px}.exact-home .about{padding:45px;min-height:650px}.exact-home .about-grid{gap:45px;min-height:350px}.exact-home .about-grid>img{height:350px}.exact-home .about h2{font-size:42px;line-height:1.2}.exact-home .gallery .gallery-quote{padding:25px 15px}.exact-home .gallery .gallery-quote h3{font-size:27px;line-height:1.2}.exact-home .gallery .gallery-quote .button{font-size:14px;padding:10px 18px}.exact-home footer.wide{padding:65px 55px 35px}.exact-home .footer-grid{gap:25px}.exact-home .price-card{padding:25px}.exact-home .hero p{max-width:650px;font-size:16px}.exact-home .header nav{gap:24px;font-size:16px}}
+@media(max-width:1100px){.exact-home{font-size:16px}.exact-home .wrap{width:88%}.exact-home .wide{width:94%}.exact-home .header{height:115px}.exact-home .header nav{gap:16px;font-size:15px}.exact-home .hero{height:600px}.exact-home .hero-copy{width:85%}.exact-home .hero h1{font-size:64px}.exact-home .section{margin:90px auto}.exact-home h2,.exact-home .section-head h2{font-size:44px;line-height:1.2}.exact-home .about{padding:35px;min-height:0}.exact-home .about-grid{gap:30px;min-height:0}.exact-home .about-grid>img{height:380px}.exact-home .about h2{font-size:40px;line-height:1.2}.exact-home .facts span{font-size:14px}.exact-home .gallery-row{height:300px;gap:20px}.exact-home .gallery{gap:25px}.exact-home .gallery .gallery-quote{padding:20px 12px}.exact-home .gallery .gallery-quote h3{font-size:25px;line-height:1.2}.exact-home .gallery .gallery-quote .button{font-size:13px;padding:10px 15px}.exact-home .class-card{height:340px}.exact-home .class-card>div{left:22px;bottom:25px}.exact-home .media-steps{width:94%;margin-bottom:90px}.exact-home .shop-promotion{height:auto}.exact-home .steps{gap:30px}.exact-home .cta{margin-bottom:90px}.exact-home .philosophy{height:440px}.exact-home .philosophy>div{padding:30px}.exact-home .philosophy img{height:440px}.exact-home .price-card{padding:25px;min-height:500px}.exact-home footer.wide{width:94%;padding:50px 35px;min-height:0}}
+@media(max-width:700px){.exact-home .header{height:auto;padding:24px 0}.exact-home .header nav{font-size:13px;gap:8px}.exact-home .hero{height:600px;align-items:center;background-position:85% center}.exact-home .hero:before{background:#0006}.exact-home .hero h1{font-size:46px}.exact-home .hero-copy{gap:26px}.exact-home .hero p{font-size:15px;line-height:24px}.exact-home .button{font-size:15px;padding:12px 24px}.exact-home .section{margin:65px auto}.exact-home .section-head{margin-bottom:30px}.exact-home .section-head h2{font-size:34px}.exact-home .class-card{height:380px}.exact-home .classes{gap:22px}.exact-home .about{padding:28px}.exact-home .about-grid{grid-template-columns:1fr}.exact-home .about h2{font-size:38px}.exact-home .about-grid>img{height:auto;aspect-ratio:1}.exact-home .facts{margin-top:35px}.exact-home .facts strong{font-size:42px}.exact-home .facts span{font-size:13px}.exact-home .gallery{margin-top:30px;gap:16px}.exact-home .gallery-row{height:auto;gap:16px}.exact-home .gallery-row-top{grid-template-columns:1fr 1fr}.exact-home .gallery-row-top img{height:220px}.exact-home .gallery-row-bottom{grid-template-columns:1fr 1fr}.exact-home .gallery-row-bottom>img:first-child{grid-column:1/-1;height:260px}.exact-home .gallery-row-bottom>img:last-child{height:260px}.exact-home .gallery .gallery-quote{min-height:260px;justify-content:center}.exact-home .gallery .gallery-quote h3{font-size:25px;line-height:1.2}.exact-home .media-steps{margin-bottom:65px}.exact-home .steps-section{margin-top:35px;padding:0 15px}.exact-home .steps{gap:30px}.exact-home .cta{min-height:0;margin-bottom:65px}.exact-home .cta h2{font-size:36px;line-height:1.2}.exact-home .philosophy{height:auto}.exact-home .philosophy img{height:350px}.exact-home .philosophy h3{font-size:30px}.exact-home #pricing{margin-top:65px}.exact-home .price-card{min-height:0}.exact-home .pricing{margin-top:35px}.exact-home footer.wide{padding:35px 25px}.exact-home .footer-grid{gap:25px}.exact-home .footer-grid h3{font-size:24px}.exact-home .footer-grid a,.exact-home .footer-grid p{font-size:14px}}
+
+.exact-home .gallery-row-top img:nth-child(2){object-position:center 15%}.exact-home .gallery-row-bottom>img:first-child{object-position:center 20%}
