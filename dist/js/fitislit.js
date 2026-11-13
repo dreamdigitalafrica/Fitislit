@@ -1,5 +1,17 @@
 (function(){
  'use strict';
+ var themeToggle=document.getElementById('fit-theme-toggle');
+ function setTheme(theme){
+  document.documentElement.dataset.theme=theme;
+  var dark=theme==='dark';
+  themeToggle.setAttribute('aria-pressed',String(dark));
+  themeToggle.setAttribute('aria-label','Switch to '+(dark?'light':'dark')+' theme');
+  themeToggle.querySelector('.fit-theme-label').textContent=dark?'Light':'Dark';
+  themeToggle.querySelector('.fit-theme-icon').textContent=dark?'☀':'☾';
+  try{localStorage.setItem('fit-theme',theme)}catch(e){}
+ }
+ setTheme(document.documentElement.dataset.theme==='dark'?'dark':'light');
+ themeToggle.addEventListener('click',function(){setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark')});
  var offers={
  'Weight Gain':'Explore a programme focused on your weight-gain goals. Programme contents, duration, suitability and pricing will be confirmed before enrolment.',
  'Weight Loss':'Explore a programme focused on your weight-loss goals. Programme contents, duration, suitability and pricing will be confirmed before enrolment.',
