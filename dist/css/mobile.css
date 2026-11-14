@@ -71,3 +71,14 @@ footer .logo img{filter:none}
 }
 .exact-home .price{font-size:clamp(32px,3.4vw,54px);overflow-wrap:anywhere}
 @media(max-width:700px){body.exact-home .price{font-size:40px}.shop-grid .card-bottom strong{font-size:20px}.collection-page .detail-price{font-size:40px}}
+/* White wordmark for the dark footer; retain the original lime artwork. */
+footer .logo::after{
+ content:"";
+ position:absolute;
+ inset:0;
+ pointer-events:none;
+ background:#fff;
+ -webkit-mask:url('../images/fitislit/logo-full-color.png') center/contain no-repeat;
+ mask:url('../images/fitislit/logo-full-color.png') center/contain no-repeat;
+ clip-path:polygon(0 0,64% 0,64% 18%,60% 51.5%,0 51.5%);
+}
