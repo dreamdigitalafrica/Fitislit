@@ -7,6 +7,7 @@ source=(root/'courses.html').read_text()
 head=source.split('<main>')[0].replace('class="collection-page"','class="collection-page class-preview"')
 if 'css/class-preview.css' not in head: head=head.replace('</head>','<link rel="stylesheet" href="css/class-preview.css"></head>')
 footer=source[source.index('<footer'):]
+if 'js/store.js' not in footer: footer=footer.replace('</body>','<script src="js/store.js"></script></body>')
 content={
  'weight-gain':{
   'headline':'Build strength, one step at a time.',
