@@ -1,4 +1,10 @@
 {
   "framework": null,
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/fit-is-lit",
+      "destination": "/fit-is-lit.html"
+    }
+  ]
 }
