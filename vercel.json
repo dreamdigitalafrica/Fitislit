@@ -6,5 +6,12 @@
       "source": "/fit-is-lit",
       "destination": "/fit-is-lit.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/shiba-care.html",
+      "destination": "/sheba-care.html",
+      "permanent": true
+    }
   ]
 }

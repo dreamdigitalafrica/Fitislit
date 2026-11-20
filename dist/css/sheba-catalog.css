@@ -1,0 +1,31 @@
+/* Layout and type come from Cunnet. These rules fit Sheba content and the shared static header. */
+.sheba-theme main>div:first-child{padding-top:max(60px,calc(200px - var(--site-header-height,96px)))}
+.sheba-theme.podcast-page main>div:first-child{padding-top:max(60px,calc(175px - var(--site-header-height,96px)))}
+.sheba-theme [hidden]{display:none!important}
+.sheba-theme a:focus-visible,.sheba-theme button:focus-visible,.sheba-theme select:focus-visible,.sheba-theme input:focus-visible{outline:2px solid #1e1e1e;outline-offset:5px}
+.sheba-theme .mg-portfolio-thumb img{aspect-ratio:554/477;object-fit:cover;border-radius:16px}
+.sheba-theme .mg-portfolio-thumb.product-photo img{object-fit:contain;background:#f5f5f5}
+.sheba-theme .cs-portfolio-tag span{font-size:14px}
+.sheba-theme .shop-product-thumb img{aspect-ratio:440/399;object-fit:contain;background:#f5f5f5}
+.sheba-theme .shop-product-content-wrap{flex-wrap:wrap;align-items:start}
+.sheba-theme .shop-product-price{white-space:nowrap}
+.sheba-theme .shop-product-item:focus-within .shop-product-btn{opacity:1;visibility:visible;bottom:0}
+.sheba-theme #product-sort{width:auto;max-width:100%;height:48px;padding:0 40px 0 18px;border:1px solid #ddd;border-radius:5px;color:#1e1e1e;background:#fff;cursor:pointer}
+.sheba-theme .fit-cart-status{min-height:24px;font-size:14px;line-height:1.5;margin:12px 0 0}
+.sheba-theme .fit-cart-status a,.sheba-text-link{text-decoration:underline;text-underline-offset:4px}
+.sheba-theme .store-note{font-size:14px;line-height:1.5;margin:16px 0;color:#666}
+.sheba-theme .tp-product-details-nav-main-thumb img{object-fit:contain;aspect-ratio:440/399;background:#f5f5f5}
+.sheba-theme .tp-product-details-nav-main-thumb.digital-photo img{object-fit:cover}
+.sheba-theme .tp-cart-input[type=number]{height:46px;line-height:46px;padding:0 36px;font-size:16px;text-align:center;width:100%;border:1px solid #ddd;border-radius:0;background:#fff;color:#1e1e1e;appearance:textfield;-moz-appearance:textfield}
+.sheba-theme .tp-cart-input::-webkit-inner-spin-button,.sheba-theme .tp-cart-input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.sheba-theme .tp-cart-minus,.sheba-theme .tp-cart-plus{border:0;background:transparent;padding:0;color:#1e1e1e}
+.sheba-theme .tp-product-details-additional-info th{font-weight:500;padding:12px 20px;border-bottom:1px solid #eee}
+.sheba-theme .tp-product-details-tab-nav .nav-tabs{gap:20px}
+.sheba-theme .tp-banner-thumb img{width:100%;height:auto;aspect-ratio:8/3;object-fit:cover}
+.sheba-theme .postbox-thumb img{aspect-ratio:835/686;object-fit:cover;border-radius:16px}
+.sheba-theme .tp-blog-list-thumb img{aspect-ratio:780/416;object-fit:cover;border-radius:16px}
+.sheba-theme .tp-list-area{padding-top:80px}
+@media(hover:none){.sheba-theme .shop-product-btn{opacity:1;visibility:visible;bottom:0}}
+@media(max-width:991px){.sheba-theme .tp-product-details-thumb-wrapper{margin-bottom:40px}.sheba-theme .tp-product-details-area{padding-top:60px}.sheba-theme .tp-footer-area{padding-top:70px}}
+@media(max-width:767px){.sheba-theme main>div:first-child,.sheba-theme.podcast-page main>div:first-child{padding-top:50px}.sheba-theme .tp-pd-2-top{padding-bottom:45px}.sheba-theme .about-us-spacing{padding-bottom:45px}.sheba-theme .tp-product-details-top{padding-bottom:60px}.sheba-theme .tp-product-details-bottom{padding-bottom:70px}.sheba-theme .tp-product-details-tab-nav .nav-tabs{gap:0}.sheba-theme .tp-product-details-tab-nav .nav-link{font-size:16px;padding:12px}.sheba-theme .tp-breadcrumb-dec-wrap{margin-left:0;gap:20px}.sheba-theme .tp-breadcrumb-date{margin-right:0}.sheba-theme .tp-blog-list-content{margin-left:0}.sheba-theme .tp-blog-list-thumb{margin-right:0}.sheba-theme .tp-list-area{padding-top:40px;padding-bottom:60px}.sheba-theme .tp-banner-thumb img{aspect-ratio:1.6/1}.sheba-theme .tp-section-title.fs-92{font-size:clamp(40px,10vw,70px)}.sheba-theme .tp-product-details-action-item-wrapper{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.sheba-theme *{scroll-behavior:auto!important;transition:none!important}}
