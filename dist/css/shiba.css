@@ -1,7 +1,7 @@
 /* Cunnet's typography and components, with a viewport-sized opening frame. */
 :root{--site-header-height:80px}
 .shiba-hero{height:calc(100svh - var(--site-header-height));min-height:440px;background:#fff;isolation:isolate}
-.hero-frame{height:100%;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:clamp(18px,3svh,32px);padding-top:clamp(16px,3svh,32px);padding-bottom:clamp(16px,3svh,28px)}
+.hero-frame{height:100%;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;gap:clamp(18px,3svh,32px);padding-top:clamp(16px,3svh,32px);padding-bottom:clamp(16px,3svh,28px)}
 .hero-intro{align-self:center;transition:opacity .35s;position:relative;z-index:2}
 .hero-intro .tp-hero-title{font-size:clamp(64px,min(11.5vw,21svh),180px);line-height:.98;white-space:nowrap;text-align:center;margin:0 0 clamp(24px,5svh,48px);letter-spacing:-.055em}
 .hero-details{display:grid;grid-template-columns:1fr 2fr 1fr;align-items:start;gap:20px}
@@ -9,7 +9,7 @@
 .hero-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
 .tp-btn{gap:0}
 .hero-actions .tp-btn{min-height:50px;padding:16px 27px;line-height:1.1;white-space:nowrap}
-.spotlight-gallery{position:relative;z-index:4;display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:clamp(8px,1.1vw,16px);padding:clamp(12px,1.5vw,22px);border-radius:8px;background:rgba(0,0,0,.1);backdrop-filter:blur(12px)}
+.spotlight-gallery{min-width:0;width:100%;position:relative;z-index:4;display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:clamp(8px,1.1vw,16px);padding:clamp(12px,1.5vw,22px);border-radius:8px;background:rgba(0,0,0,.1);backdrop-filter:blur(12px)}
 .spotlight-gallery .thumbs{position:relative;min-width:0;display:block;border-radius:6px;transition:transform .25s}
 .spotlight-gallery .thumbs img{display:block;width:100%;height:clamp(100px,23svh,190px);border-radius:6px;object-fit:cover}
 .spotlight-gallery .thumbs:hover,.spotlight-gallery .thumbs:focus-visible{transform:translateY(-8px)}
