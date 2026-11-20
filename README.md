@@ -1,3 +1,11 @@
+## Cunnet restoration — 20 November 2026
+
+Rebuilt the homepage from the supplied Cunnet `index.html`, retaining its original main CSS, hero thumbnails/background hover, mobile image sliders, section grids and animation dependencies. Replaced the long homepage copy with brief business content; removed added section labels, image captions and extra sections. Hero headline: “Live in Motion”.
+
+All active fitness pages now use one static header matching the Cunnet navigation styling. Shared files: `dist/css/site-header.css` and `dist/js/site-header.js`. Fit is Lit has its own links within that same header style. The old header and mobile-nav script are removed from those pages. Native scrolling keeps the header in document flow.
+
+Validation: local HTTP 200, page links/assets, single-header checks, nine hero thumbnails/backgrounds, all JS syntax and CSS asset references. Browser visual verification was unavailable in this chat.
+
 # Shiba Imprint and Fit is Lit
 
 The main homepage (`dist/index.html`) introduces Shiba Imprint using the supplied Cunnet typography and agency layout as a base, with existing founder and Fit is Lit assets. Content is adapted from the existing website and business profile; children’s clothing remains marked as in development.
