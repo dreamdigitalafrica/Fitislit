@@ -1,0 +1,16 @@
+/* Supplied stock photography and a concise, responsive storefront. */
+body.exact-home .hero{background-image:linear-gradient(90deg,#0008,#0002),url('../images/stock/tennis-2560.webp');background-position:center 42%;min-height:480px;height:calc(80svh - 80px);max-height:760px}
+body.exact-home .hero h1{font-size:clamp(48px,6vw,90px)}body.exact-home .hero-copy{width:min(850px,90%);gap:25px}
+body.exact-home .about{min-height:0}body.exact-home .about-grid>img{object-position:40% center}
+body.exact-home .clean-shop-banner{background-image:linear-gradient(90deg,#111b,#1112),url('../images/stock/activewear-2560.webp');background-position:center;min-height:360px}
+body.exact-home .media-steps{margin-bottom:100px}
+body.exact-home .price-card{min-height:420px}body.exact-home .price-card h3{font-size:30px}
+body .store-hero{position:relative;display:grid;grid-template-columns:1fr 1.6fr;min-height:380px;margin-top:35px;overflow:hidden;border-radius:16px;background:#e9e6df}
+.store-hero>div{padding:clamp(24px,4vw,60px);align-self:center;z-index:1}.shop-page .store-hero h1{font-size:clamp(40px,4.5vw,72px);letter-spacing:-.035em;line-height:1.02;margin:0 0 22px}.store-hero p{font-size:20px;margin-bottom:28px}.store-hero>img{width:100%;height:100%;min-height:380px;object-fit:cover;object-position:center}
+body.shop-page .shop-grid{margin-top:65px;margin-bottom:80px;gap:24px;grid-template-columns:repeat(4,minmax(0,1fr))}
+body.shop-page .shop-introduction h2{font-size:36px;line-height:1.15;margin:0}body.shop-page .shop-introduction p{font-size:16px;margin-top:14px;max-width:650px}
+body.shop-page .collection-card{background:white;border:1px solid #e4e4e4;padding:14px;border-radius:14px}
+body.shop-page .merch-image{background:#f1f2ee;border-radius:8px}body.shop-page .card-copy h2{font-size:22px!important;line-height:1.25!important;min-height:82px;margin:12px 0}
+body.shop-page .card-copy{padding:12px 4px 8px}body.shop-page .card-bottom strong{font-size:20px}body.shop-page .shop-actions{display:flex;gap:8px;flex-wrap:wrap}body.shop-page .shop-actions>a{padding:12px 17px!important;font-size:14px!important}.shop-page .fit-cart-status:empty{display:none}
+@media(max-width:1100px){body.shop-page .shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.store-hero>div{padding:30px}.shop-page .store-hero h1{font-size:48px}body.shop-page .card-copy h2{min-height:60px}}
+@media(max-width:700px){body.exact-home .hero{background-image:linear-gradient(#0003,#0006),url('../images/stock/tennis-1280.webp');min-height:510px;background-position:60% center}.exact-home .hero h1{font-size:52px!important}body.exact-home .clean-shop-banner{background-image:linear-gradient(90deg,#111b,#1113),url('../images/stock/activewear-1280.webp');min-height:370px}body .store-hero{grid-template-columns:1fr;margin-top:15px}.store-hero>img{height:230px;min-height:0}.store-hero>div{padding:30px}.shop-page .store-hero h1{font-size:44px}.store-hero p{font-size:18px;margin-bottom:20px}body.shop-page .shop-grid{gap:14px;margin-top:40px}body.shop-page .collection-card{padding:10px}body.shop-page .card-copy h2{font-size:18px!important;min-height:90px}body.shop-page .card-bottom strong{font-size:17px}.imprint-footer{padding:25px}}

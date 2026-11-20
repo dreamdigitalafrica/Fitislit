@@ -6,3 +6,4 @@
 @media(max-width:991px){.site-header-inner{max-width:720px}}
 @media(max-width:767px){.site-header-inner{max-width:540px}}
 @media(max-width:575px){.site-header-inner{padding:0 15px}.site-brand{font-size:22px}}
+@media(min-width:992px) and (max-width:1199px){.site-header-inner{grid-template-columns:1fr auto 1fr}.site-header nav{display:flex}.site-header nav a{padding:8px 12px}}

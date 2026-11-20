@@ -8,13 +8,26 @@
  document.addEventListener('click',e=>{if(!header.contains(e.target))close();});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open')){close();menu.focus();}});
  window.addEventListener('resize',close);
+ new ResizeObserver(()=>document.documentElement.style.setProperty('--site-header-height',header.offsetHeight+'px')).observe(header);
  const path=location.pathname;
  nav.querySelectorAll('a').forEach(a=>{if(a.getAttribute('href')===path||(path==='/fit-is-lit'&&a.getAttribute('href')==='/fit-is-lit.html'))a.setAttribute('aria-current','page');});
- // Keyboard equivalent of the theme's thumbnail hover interaction.
- const gallery=document.querySelector('.tp-hero-scale-gallery'),hero=document.querySelector('.tp-hero-scale-content');
- const backgrounds=document.querySelectorAll('.tp-hero-scale-background .background-img');
- if(gallery&&hero){
- gallery.addEventListener('focusin',e=>{const thumb=e.target.closest('[data-index]');if(!thumb)return;hero.style.opacity='0';backgrounds.forEach((bg,i)=>bg.style.opacity=i===Number(thumb.dataset.index)?'1':'0');});
- gallery.addEventListener('focusout',e=>{if(!gallery.contains(e.relatedTarget)){hero.style.opacity='1';backgrounds.forEach(bg=>bg.style.opacity='0');}});
+ const hero=document.querySelector('.shiba-hero'),gallery=document.querySelector('.spotlight-gallery');
+ if(!hero||!gallery)return;
+ const backgrounds=[...hero.querySelectorAll('.spotlight-background')];
+ let active=-1;
+ function show(thumb){
+  const index=Number(thumb.dataset.index);active=index;
+  const bg=backgrounds[index],img=bg.querySelector('img');
+  const reveal=()=>{if(active!==index)return; backgrounds.forEach((b,i)=>b.classList.toggle('active',i===index));hero.classList.add('previewing');};
+  if(!img.src){img.src=img.dataset.src;img.addEventListener('load',reveal,{once:true});}
+  if(img.complete&&img.naturalWidth)reveal();
  }
+ function reset(){active=-1;hero.classList.remove('previewing');backgrounds.forEach(bg=>bg.classList.remove('active'));}
+ gallery.querySelectorAll('.thumbs').forEach(thumb=>{
+  thumb.addEventListener('mouseenter',()=>{if(matchMedia('(hover:hover)').matches)show(thumb);});
+  thumb.addEventListener('focus',()=>show(thumb));
+ });
+ gallery.addEventListener('mouseleave',()=>{if(!gallery.contains(document.activeElement))reset();});
+ gallery.addEventListener('focusout',e=>{if(!gallery.contains(e.relatedTarget))reset();});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape')reset();});
 })();

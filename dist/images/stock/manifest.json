@@ -1,0 +1,282 @@
+{
+  "nutrition": {
+    "source": "young-woman-enjoying-healthy-lifestyle-in-home-2026-09-22-05-32-02-utc.jpg",
+    "originalBytes": 20482941,
+    "originalSize": [
+      8256,
+      5504
+    ],
+    "variants": [
+      {
+        "file": "nutrition-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 36014
+      },
+      {
+        "file": "nutrition-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 99006
+      },
+      {
+        "file": "nutrition-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 276256
+      }
+    ]
+  },
+  "studio": {
+    "source": "women-resting-and-smiling-in-sunny-fitness-studio-2026-09-25-08-16-12-utc.jpg",
+    "originalBytes": 33331470,
+    "originalSize": [
+      7000,
+      4666
+    ],
+    "variants": [
+      {
+        "file": "studio-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 60326
+      },
+      {
+        "file": "studio-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 196124
+      },
+      {
+        "file": "studio-2560.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 738010
+      }
+    ]
+  },
+  "outdoors": {
+    "source": "two-women-chatting-after-an-outdoor-workout-2026-09-21-13-35-35-utc.jpg",
+    "originalBytes": 11228398,
+    "originalSize": [
+      6720,
+      4480
+    ],
+    "variants": [
+      {
+        "file": "outdoors-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 41266
+      },
+      {
+        "file": "outdoors-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 110252
+      },
+      {
+        "file": "outdoors-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 395276
+      }
+    ]
+  },
+  "stretch": {
+    "source": "woman-stretching-on-a-blue-fitness-ball-in-a-brigh-2026-09-25-07-11-27-utc.JPG",
+    "originalBytes": 28597694,
+    "originalSize": [
+      7948,
+      5301
+    ],
+    "variants": [
+      {
+        "file": "stretch-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 60954
+      },
+      {
+        "file": "stretch-1280.webp",
+        "width": 1280,
+        "height": 854,
+        "bytes": 190600
+      },
+      {
+        "file": "stretch-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 876392
+      }
+    ]
+  },
+  "activewear": {
+    "source": "women-in-colorful-athletic-wear-holding-yoga-mats-2026-09-22-02-56-18-utc.jpg",
+    "originalBytes": 19328095,
+    "originalSize": [
+      8256,
+      4593
+    ],
+    "variants": [
+      {
+        "file": "activewear-640.webp",
+        "width": 640,
+        "height": 356,
+        "bytes": 35834
+      },
+      {
+        "file": "activewear-1280.webp",
+        "width": 1280,
+        "height": 712,
+        "bytes": 94682
+      },
+      {
+        "file": "activewear-2560.webp",
+        "width": 2560,
+        "height": 1424,
+        "bytes": 258206
+      }
+    ]
+  },
+  "yoga": {
+    "source": "women-practicing-yoga-in-studio-on-blue-mats-2026-09-24-11-55-48-utc.jpg",
+    "originalBytes": 12249882,
+    "originalSize": [
+      5760,
+      3840
+    ],
+    "variants": [
+      {
+        "file": "yoga-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 55234
+      },
+      {
+        "file": "yoga-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 140286
+      },
+      {
+        "file": "yoga-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 361910
+      }
+    ]
+  },
+  "community": {
+    "source": "women-relaxing-and-chatting-at-the-gym-2026-10-27-20-11-16-utc.jpg",
+    "originalBytes": 15493094,
+    "originalSize": [
+      5474,
+      3653
+    ],
+    "variants": [
+      {
+        "file": "community-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 64424
+      },
+      {
+        "file": "community-1280.webp",
+        "width": 1280,
+        "height": 854,
+        "bytes": 178432
+      },
+      {
+        "file": "community-2560.webp",
+        "width": 2560,
+        "height": 1708,
+        "bytes": 544178
+      }
+    ]
+  },
+  "tennis": {
+    "source": "smiling-women-enjoying-a-game-of-tennis-2026-09-22-06-01-48-utc.jpg",
+    "originalBytes": 6105639,
+    "originalSize": [
+      7934,
+      5292
+    ],
+    "variants": [
+      {
+        "file": "tennis-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 41260
+      },
+      {
+        "file": "tennis-1280.webp",
+        "width": 1280,
+        "height": 854,
+        "bytes": 109192
+      },
+      {
+        "file": "tennis-2560.webp",
+        "width": 2560,
+        "height": 1708,
+        "bytes": 322458
+      }
+    ]
+  },
+  "rope": {
+    "source": "smiling-woman-holding-jump-rope-ready-to-exercise-2026-10-06-20-18-07-utc.jpg",
+    "originalBytes": 11740932,
+    "originalSize": [
+      7044,
+      4696
+    ],
+    "variants": [
+      {
+        "file": "rope-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 17822
+      },
+      {
+        "file": "rope-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 55180
+      },
+      {
+        "file": "rope-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 224610
+      }
+    ]
+  },
+  "voices": {
+    "source": "smiling-active-people-standing-in-front-of-colored-2026-09-22-02-52-58-utc.jpg",
+    "originalBytes": 10808208,
+    "originalSize": [
+      7000,
+      3000
+    ],
+    "variants": [
+      {
+        "file": "voices-640.webp",
+        "width": 640,
+        "height": 274,
+        "bytes": 38414
+      },
+      {
+        "file": "voices-1280.webp",
+        "width": 1280,
+        "height": 549,
+        "bytes": 101110
+      },
+      {
+        "file": "voices-2560.webp",
+        "width": 2560,
+        "height": 1097,
+        "bytes": 287108
+      }
+    ]
+  }
+}
