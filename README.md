@@ -1,4 +1,4 @@
-# Shiba Imprint and Fit is Lit
+# Sheba Imprint and Fit is Lit
 
 Static website deployed from `dist` through the existing Vercel Git connection.
 Production: https://fitislit.vercel.app/
