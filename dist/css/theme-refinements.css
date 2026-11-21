@@ -1,0 +1,39 @@
+/* Reference image frames; width responds to the original Bootstrap columns. */
+.tp-portfolio-thumb>a{display:block;aspect-ratio:830/632;overflow:hidden;border-radius:16px}
+.tp-portfolio-thumb>a>img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+.sheba-theme .mg-portfolio-thumb>a{display:block;aspect-ratio:554/477;overflow:hidden}
+.sheba-theme .mg-portfolio-thumb img{display:block;width:100%;height:100%;aspect-ratio:auto}
+.sheba-theme .shop-product-thumb>a{display:block;aspect-ratio:440/399;overflow:hidden}
+.sheba-theme .shop-product-thumb img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:contain}
+.sheba-theme .tp-banner-thumb{overflow:hidden}
+.sheba-theme .tp-banner-thumb img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+.sheba-theme .postbox-thumb img{display:block;width:100%;height:auto;aspect-ratio:835/686;object-fit:cover;border-radius:14px}
+.sheba-theme .tp-blog-list-thumb img{display:block;width:100%;height:auto;aspect-ratio:780/416;object-fit:cover;border-radius:0}
+.sheba-theme .tp-product-details-nav-main-thumb img{display:block;width:100%;height:auto;aspect-ratio:440/399;object-fit:contain}
+.sheba-theme .tp-product-details-nav-main-thumb.digital-photo img{object-fit:cover}
+.site-header .site-brand img{width:132px;max-height:64px;height:auto}
+/* The unmodified theme footer grid, typography and spacing apply on every page. */
+footer.sheba-footer{display:block;width:100%;max-width:none;margin:0;padding:0;background:#fff;color:#1e1e1e;border:0;border-radius:0;text-align:left;overflow:hidden;font-family:var(--tp-ff-inter,Arial,sans-serif);line-height:1.5}
+.sheba-footer .tp-footer-area{background:transparent}
+.sheba-footer .tp-footer-logo img{display:block;width:229px;height:auto;max-height:none}
+.sheba-footer .tp-footer-email{overflow-wrap:anywhere}
+.sheba-footer .tp-footer-email a{font-size:clamp(23px,2.6vw,42px);line-height:1.15}
+.sheba-footer .tp-footer-title-wrap h2{margin-top:0}
+.sheba-footer .tp-footer-title-wrap .tp-btn{vertical-align:middle}
+.cunnet-dark footer.sheba-footer{background:#1e1e1e;color:white}
+.cunnet-dark .sheba-footer .tp-footer-logo img{filter:invert(1)}
+.service-detail-page .sheba-service-title{font-size:inherit;line-height:inherit;letter-spacing:inherit}
+.service-detail-page .tp-service-details-hero-title{font-size:92px;line-height:.98;letter-spacing:-.03em}
+.service-detail-page .tp-service-thumb img{aspect-ratio:991/620;object-fit:cover}
+.service-detail-page .tp-service-details-content li{padding-left:0}
+.service-detail-page .tp-faq-button:focus-visible{outline:2px solid white;outline-offset:4px}
+.site-header a,.sheba-footer a{transition:color .25s,background-color .25s}
+@media(max-width:1399px){.service-detail-page .tp-service-details-hero-title{font-size:70px}}
+@media(max-width:991px){.sheba-footer .tp-footer-email a{font-size:32px}}
+@media(max-width:575px){.site-header .site-brand img{width:114px}.service-detail-page .tp-service-details-hero-title{font-size:60px}.sheba-footer .tp-footer-email a{font-size:26px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+.cunnet-dark .sheba-service-title{color:var(--tp-common-white)}
+
+.sheba-footer .tp-footer-text{container-type:inline-size}
+.sheba-footer .tp-footer-bigtext{font-size:clamp(40px,16cqw,180px);white-space:nowrap}
+.sheba-footer .tp-footer-email a{font-size:clamp(23px,2.2vw,32px)}

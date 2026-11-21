@@ -1,1 +1,11 @@
-(function(){'use strict';var f=document.getElementById('enquiry-form');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();if(!f.reportValidity())return;var text='Fit is Lit enquiry draft\n\nName: '+f.elements.name.value+'\nEmail: '+f.elements.email.value+'\n\n'+f.elements.message.value+'\n\nSaved locally. Not sent.';var u=URL.createObjectURL(new Blob([text],{type:'text/plain'})),a=document.createElement('a');a.href=u;a.download='fit-is-lit-enquiry.txt';a.click();setTimeout(function(){URL.revokeObjectURL(u)},1000);document.getElementById('enquiry-status').textContent='Draft saved. Nothing has been sent.'});})();
+(() => {
+  const form = document.getElementById('enquiry-form');
+  if (!form) return;
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+    const body = `Name: ${form.elements.name.value}\nEmail: ${form.elements.email.value}\n\n${form.elements.message.value}`;
+    window.location.href = `mailto:Shebasimprint@gmail.com?subject=${encodeURIComponent('Sheba Imprint enquiry')}&body=${encodeURIComponent(body)}`;
+    document.getElementById('enquiry-status').textContent = 'Your email app will open with your enquiry. Send it there when ready.';
+  });
+})();

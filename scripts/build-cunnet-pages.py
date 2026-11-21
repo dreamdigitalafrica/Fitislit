@@ -99,3 +99,7 @@ for path in D.glob('*.html'):
   nav=Soup('<nav class="sheba-footer-links" aria-label="Catalogue"><a href="services.html">Services &amp; products</a><a href="shop.html">Lit Store</a></nav>','html.parser'); soup.footer.insert(0,nav)
  path.write_text(str(soup))
 (D/'sheba-care.html').write_text((D/'shiba-care.html').read_text())
+
+# Apply the shared theme refinements after regenerating the catalogue.
+import subprocess, sys
+subprocess.run([sys.executable, str(ROOT/"scripts/refine-theme.py")], check=True)
